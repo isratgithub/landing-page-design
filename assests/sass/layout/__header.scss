@@ -1,0 +1,92 @@
+// menu start
+.header-menu{
+    .navbar{
+        .container-fluid{
+            .navbar-toggler{
+                // color:black;
+                border:none;
+                // .navbar-toggler-icon{
+                //     // background: red;
+                //     color:black;
+                // }
+            }
+            &:focus{
+                outline:none;
+                box-shadow: none;
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        
+                        .nav-link{
+                            color:#000;
+                            .upper-bar{
+                                visibility: hidden;
+                                width:70px;
+                                height:3px;
+                                background: black;
+                                margin-top: 7px;
+                            }
+                            .lower-bar{
+                                visibility: hidden;
+                                width: 44px;
+                                    height: 3px;
+                                    background: black;
+                                    margin-top: 3px;
+                            }
+                            &:hover{
+                                .upper-bar{
+                                    width:70px;
+                                    height:3px;
+                                    background: #000;
+                                    visibility: visible;
+                                    margin-top: 7px;
+                                    // display:block;
+                                }
+                                .lower-bar{
+                                    width: 44px;
+                                    height: 3px;
+                                    background: #000;
+                                    margin-top: 3px;
+                                    visibility: visible;
+                                }
+                            }
+                        
+                        }
+                        .active{
+                            .upper-bar{
+                                width:70px;
+                                height:3px;
+                                background: #000;
+                                visibility: visible;
+                                margin-top: 7px;
+                                // display:block;
+                            }
+                            .lower-bar{
+                                width: 44px;
+                                height: 3px;
+                                background: #000;
+                                margin-top: 3px;
+                                visibility: visible;
+                            }
+                        }
+                       
+                    }
+                }
+                .navbar-text{
+                    .navbar-collapse{
+                        form{
+                            // padding: 0px 25px;
+                            .sign-in{
+                                background: white;
+                                border:1px solid black;
+                                border-radius: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// menu end

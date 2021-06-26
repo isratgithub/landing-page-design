@@ -1,0 +1,396 @@
+// banner part start
+
+.banner{
+    .banner-img{
+        width:100%;
+        height:707px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        .banner-content{
+            width: 1228px;
+            padding: 40px;
+            color:#fff;
+            // border:1px solid red;
+            margin-top: 25px;
+            h1{
+                font-size: 40px;
+                text-transform: uppercase;
+            }
+            p{
+                font-size: 20px;
+                margin:0px 0px;
+                .thireye{
+                    text-transform: uppercase;
+                }
+               
+            }
+            .form-email{
+                .form-control{
+                    height: 49px;
+                    border-radius: 0px;
+                    
+                }
+            }
+           
+            .free-scan{
+                .scan{
+                    background: #10a208;
+                    color: white;
+                    border-radius: 11px;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    padding: 5px 44px;
+                    font-weight: 600;   
+                }
+            }
+                
+        }
+            
+        
+    }
+}
+
+
+// banner part end
+
+// topbar part start
+.topbar{
+    margin:35px 0px;
+    .topbar-content{
+        .topbarTopbar{
+            background: #182f59;
+            width: 100px;
+            height: 5px;
+            
+        }
+        h3{
+            color:black;
+        }   
+    } 
+}
+// topbar part end
+// companies-logo start
+.companiesLogo{
+    background: #0807070d;
+    .companiesAll{
+        // background: #0807070d;
+        img{
+            width:150px;
+            margin: -14px 1px;
+        }
+    } 
+}
+// companies-logo end
+// full scan part start
+.fullScan{
+    .fullScanButton{
+        background: #182f59;
+        color: white;
+        padding: 8px 47px;
+        border-radius: 7px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;  
+    } 
+}
+// full scan part end
+// report part start
+.sampleReport{
+    // margin: 70px 0px;
+    .reportContent{
+        padding: 0px 27px;
+        .report{
+            margin-top: 72px;
+        }
+        .reportList{
+           
+            ul{
+                padding: 0px 41px;
+                color:black;
+                font-weight: 600;
+                li{
+                   
+                    list-style-type: square;
+                   
+                }
+            
+            }
+        }
+    }
+    .report-img{
+        img{
+            width:100%;
+            height:auto;
+            margin-top: 50px;
+        }
+    }
+}
+// report part end
+
+// thirdeye looks part start
+.thirdeyeLook{
+    .thirdeyeLookContent{
+        .all-thirdeyeLookContent{
+            .eyeContent{
+                .thierdeyeSingleContent{
+                    .thireyeLine{
+                        background: #10a208;
+                        width: 79px;
+                        height: 4px;
+                    }
+                } 
+            }
+        }
+    }
+}
+
+// thirdeye looks part end
+//  guranted part start
+.guranted{
+    .all{
+        ul{
+            li{
+                // display:inline-block;
+            }
+        }
+    }
+}
+//  guranted part end
+// feature part start 
+.feature{
+    margin:85px 0px;
+    .feature-img{
+        img{
+            width:119%;
+            height:400px;
+        }
+    }
+    .featureThirdeye{
+        // margin:36px 0px;
+        .featureEye{
+            background: #182f59;
+            width: 100px;
+            height: 5px;
+        }
+    }
+}
+// feature part end
+
+// acheive part start
+.acheive{
+    background: #0807070d;
+    margin:39px 0px;
+
+    .guranterPart{
+        padding:0px 0px;
+        ul{
+            li{
+                &:nth-child(1){
+                    .successPartImg{
+                        img{
+                            margin-top: -74px;
+                        }
+                        // margin-top:25px;
+                    }
+                }
+                &:nth-child(2){
+                    .success-rate{
+                        // transform: translate(6px, 39px);
+                        // margin-top: 25px;
+                        h1{
+                            color:#182f59;
+                            font-size: 45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// acheive part end
+
+// customer-review part start
+.customer-review{
+    .all-clients{
+        .clents-details{
+            .client-all-comment{
+                // width: 511px;
+                height: 400px;
+                margin: 0px 41px;
+                // background: yellow;
+                .clientComment{
+                    .client-quote{
+                        background: #0807070d;
+                        height: 177px;
+                        border-radius: 10px;
+                       
+                        .client-quote-img{
+                            padding: 10px 0px 6px 0px;
+                            img{
+                                height: 20px;
+                                margin:0px auto;
+                                width:20px;
+                            }
+                            
+                        }
+                        .client-text{
+                            .client-info{
+                                .client-img{
+                                    img{
+                                        width: 139px!important;
+                                        height: 132px!important;
+                                        margin:0px auto;
+                                    }
+                                    .divider{
+                                        background: #10a208;
+                                        width: 79px;
+                                        height: 3px;
+                                    }
+                                } 
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+    .arrow{
+        margin:-16px 0px 21px 0px;
+    }
+  
+}
+
+// customer-review part end
+// pricing part start
+.pricing{
+    .peice-img{
+        img{
+            margin-top: 85px;
+            width: 100%;
+            height: 702px;
+        }
+    }
+    .price-table-all{
+        .price-table{
+            border:1px solid black;
+            .price-list{
+                .price-list-img{
+                    ul{
+                        li{
+                            .list-img{
+                                img{
+                                   width:22px!important;
+                                   height:16px!important;
+                                   margin: 0px auto;
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// pricing part end
+// trial part start
+.trial{
+    background: #182f59;
+    .trial-img{
+        margin:20px 0px;
+        img{
+            width:60%;
+            height:auto;
+        }
+    }
+    .trial-content{
+        margin:80px 0px;
+        .trial-divider{
+            width:78px;
+            height:4px;
+            background: white;
+            margin:0px auto;
+        }
+        .free-try{
+            background: white;
+            color: black;
+            border-radius: 6px;
+            padding: 4px 54px;  
+        }
+    } 
+}
+// trial part end
+// resource part start
+.resources{
+    
+    .resource-element-all{
+        .owl-nav{
+            color:black;
+            position:relative;
+            // background: #000;
+            .owl-prev{ 
+                position: absolute;
+                left: -50px;
+                bottom: -100px;
+                right: 0px;
+                margin: auto;
+                font-size: 77px;
+            }
+            .owl-next{ 
+                position: absolute;
+                left: 0px;
+                bottom: -100px;
+                right: -37px;
+                margin: auto;
+                font-size: 77px;
+            }
+        }
+        // margin:0px 0px;
+        .element-resource{
+            
+            // background: red;
+            
+            .guides{
+                .guide-divider{
+                    background: #182f59;
+                    width:177px;
+                    height:3px;
+                    margin:0px auto;
+                }
+            }
+            .guide-content{
+                
+                background: #0807070d;
+                .learnMoreButton{
+                    .learnMore{
+                        background: #182f59;
+                        color:white;
+                        
+                    }
+                }
+                
+            }    
+        }
+    }
+}
+// resource part end
+// footer part start
+.footer{
+    background: #182f59;
+    margin: 70px 0px 0px 0px;
+    padding: 50px 60px;
+    .footer-topbar{
+        .footer-divider{
+            width: 250px;
+            height: 3px;
+            background: white;
+        }
+    }
+}
+// footer part end
